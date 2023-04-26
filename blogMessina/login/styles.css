@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    body {
+        background-image: url(../assets/Imagenes/Bandiera-d-Italia-wide-i.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    .columna1 {
+        padding-left:30px;
+        align-items: center;
+        color: antiquewhite;
+        flex-direction: row;
+    }
+    
+    .columna2 {
+        background-color: coral;
+        flex-direction: row;
+        
+    
+    }
+    
+    .columna{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    footer {
+        height: 15%;
+        margin-bottom: 0%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.foto {
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Imagenes {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.foto :hover {
+    margin: 10px solid red;
+}
+
+body {
+    background-image: url(../assets/Imagenes/Bandiera-d-Italia-wide-i.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+footer {
+    height: 15%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
